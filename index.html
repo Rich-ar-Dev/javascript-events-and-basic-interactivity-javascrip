@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Web Pages Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🚀 Interactive Web Pages with JavaScript</h1>
+
+  <!-- Part 1: Event Handling -->
+  <section id="events">
+    <h2>🎉 Part 1: Event Handling</h2>
+    <button id="clickBtn">Click Me</button>
+    <p id="clickMessage"></p>
+
+    <input type="text" id="nameInput" placeholder="Type your name">
+    <p id="nameFeedback"></p>
+  </section>
+
+  <!-- Part 2: Interactive Elements -->
+  <section id="interactive">
+    <h2>🎮 Part 2: Interactive Elements</h2>
+
+    <!-- Light/Dark Mode Toggle -->
+    <button id="modeToggle">🌙 Toggle Dark Mode</button>
+
+    <!-- Counter Game -->
+    <div id="counterBox">
+      <p>Counter: <span id="counter">0</span></p>
+      <button id="increaseBtn">Increase</button>
+      <button id="decreaseBtn">Decrease</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section id="formSection">
+    <h2>📋✅ Part 3: Form Validation</h2>
+    <form id="signupForm">
+      <label>Name: <input type="text" id="formName"></label>
+      <p class="error" id="nameError"></p>
+
+      <label>Email: <input type="text" id="formEmail"></label>
+      <p class="error" id="emailError"></p>
+
+      <label>Password: <input type="password" id="formPassword"></label>
+      <p class="error" id="passwordError"></p>
+
+      <button type="submit">Sign Up</button>
+    </form>
+    <p id="formSuccess"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
